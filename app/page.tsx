@@ -68,11 +68,11 @@ const SoundCheck = () => {
                 </td>
 
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center font-bold text-sm">
-                  {index === 0 ? "हरिदास कृष्णा चरवड" : ""}
+                  {index === 1 ? "हरिदास कृष्णा चरवड" : ""}
                 </td>
 
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center">
-                  {index === 0 ? (
+                  {index === 1 ? (
                     <img src="/user.png" className="w-12 h-12 mx-auto object-cover" />
                   ) : (
                     <div className="w-10 h-10 mx-auto" />
@@ -80,7 +80,7 @@ const SoundCheck = () => {
                 </td>
 
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center">
-                  {index === 0 ? (
+                  {index === 1 ? (
                     <img src="/symbol-bartan.png" className="w-10 h-10 mx-auto object-contain" />
                   ) : (
                     <div className="w-10 h-10 mx-auto" />
@@ -98,10 +98,10 @@ const SoundCheck = () => {
                 <td className="border-2 border-gray-400 px-2 md:px-1 py-1 text-center bg-white dark:bg-gray-800">
                   <button
                     onClick={() =>
-                      index === 0 ? playButtonSound(index) : playOtherButtonSound(index)
+                      index === 1 ? playButtonSound(index) : playOtherButtonSound(index)
                     }
                     className={`h-7 w-14 rounded-full ${
-                      index === 0 ? "bg-green-500" : "bg-blue-700"
+                      index === 1 ? "bg-green-500" : "bg-blue-700"
                     }`}
                   />
                 </td>
@@ -113,7 +113,7 @@ const SoundCheck = () => {
 
       <h1 className="text-center text-xl font-bold mb-4 mt-6">
         <span className="text-red-600">कमळ</span> या निशाणी समोरील बटन दाबून{" "}
-        <span className="text-red-600">गायकवाड उमेश ज्ञानेश्वर </span> यांना प्रचंड बहुमतांनी विजय करा.
+        <span className="text-red-600">हरिदास कृष्णा चरवड </span> यांना प्रचंड बहुमतांनी विजय करा.
       </h1>
 
       <div className="text-center mb-4 pt-2">
